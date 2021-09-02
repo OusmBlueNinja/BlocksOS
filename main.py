@@ -1,8 +1,5 @@
 #made by SKY#0845 on discord
 #this is an OS you can make apps in it py doing file.create the file.edit then rom/exe
-#to launch the JVM to do anything do 
-
-#load.v1.0 
 
 #dont exicute image files .gif .jpg only .txt .js .css .py .lua
 
@@ -14,6 +11,7 @@
 import time
 import os, os.path
 import json
+
 password="1234"
 username = "SKY#0845"
 
@@ -27,6 +25,8 @@ def console(JVM):
   print("\033[1;32;40m \033[0;0m")
   
   text = input(username + "~ ")
+
+  #java will be implemented to be able to do java code directly into prompt and it will run
   if text == "load.v1.0":
      print("\033[1;32;40m Java-Loader JVM v1.0  \n")
      JVM = False
@@ -47,6 +47,9 @@ def console(JVM):
    elif text == "rom/":
       list = os.listdir()
       print(list)
+   elif text == "clear":
+      os.system('cls' if os.name == 'nt' else 'clear')
+      print("BootLeg Loader V1.4")
 
    elif text == "file.edit":
      filename = input("What File Would You Like To Edit: ")
