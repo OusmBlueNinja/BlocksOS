@@ -1,3 +1,5 @@
+MUST INSTALL PYTHON 3.9
+
 when you start the main.py it will ask for a password its is by default 1234 but you can change it in the code
 
 if you make any apps for the os you can put them in the main folder
