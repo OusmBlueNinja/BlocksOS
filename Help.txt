@@ -12,5 +12,8 @@ rom/create
 file.print
 file.edit
 exit()
+calculator
+
+type a file name in terminal (exe: joke.py ) and it will exicute the file if it works if its not a file name it will get checked for a command
 
 any app you put in the apps folder can pe a .py .js .css or .html (HTML doesent work right)
