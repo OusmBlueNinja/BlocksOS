@@ -21,3 +21,9 @@ exit()
 calculator
 
 any app you put in the apps folder can pe a .py .js .css or .html (HTML doesent work right)
+
+NOTE:
+
+you can click on the file named BlocksOS v1.4 
+and it will run the app after you install it 
+
