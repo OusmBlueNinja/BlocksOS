@@ -1,19 +1,17 @@
-{"data":
-
- {"loggins":
-    {"password": "mine",
+{
+    "data": {
+      "loggins": {
+        "password": "mine",
+        "password2": 1234,
         "username": "Admin",
-         "password2": 1234,
-          "username2": "guest"
-     
-      
-    },
-    "misc":[
-    {
-        "creator": "Spencer Conlon",
-        "version_date": "9/6/2021" 
+        "username2": "guest"
+      },
+      "misc": [
+        {
+          "creator": "Spencer Conlon",
+          "version": "v2.1",
+          "version_date": "9/6/2021"
+        }
+      ]
     }
-  ]
- }
-}
-
+  }

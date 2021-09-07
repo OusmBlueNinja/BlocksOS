@@ -11,6 +11,3 @@ print("")
 print(comic['img'])
 print("")
 print( '_' + comic['alt'] + '_')
-
-
-

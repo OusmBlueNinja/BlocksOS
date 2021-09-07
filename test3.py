@@ -1,9 +1,8 @@
 import json
 
 
-with open("data.json", "r") as x:
-    data = json.load(x)
+data = json.load(open("data.json"))
 
-print(json.dumps(data, indent=2, sort_keys=True))
+print(json.dumps(data, indent=1, sort_keys=True))
 
-#print(data['data']['loggins'])
+print(data['data']['misc'])
