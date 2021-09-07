@@ -1,0 +1,19 @@
+{"data":
+
+ {"loggins":
+    {"password": "mine",
+        "username": "Admin",
+         "password2": 1234,
+          "username2": "guest"
+     
+      
+    },
+    "misc":[
+    {
+        "creator": "Spencer Conlon",
+        "version_date": "9/6/2021" 
+    }
+  ]
+ }
+}
+
