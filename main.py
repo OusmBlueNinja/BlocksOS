@@ -12,8 +12,9 @@ import time
 import os, os.path
 import json
 import random
-
-
+from pygame import mixer
+import playsound
+from playsound import playsound
 
 
     
@@ -62,7 +63,9 @@ def console(JVM):
    if text == "random":
 
      print("rolled a\033[1;35;40m", str(random.randint(1,100)), "\033[0m")
- 
+
+   if text == "version":
+     print(y['data']['misc']['version']) 
    elif text == "rom/":
       list = os.listdir()
       print("\033[1;32;40m ", list, "   \033")
@@ -80,10 +83,10 @@ def console(JVM):
      filename = input("\033[1;36;40m What File Would You Like To Print: \033")
      print("\033[1;37;40m \033[0m")
      try:
-       if text.endswith('.json'):
-         print("NO")
+       if text == "data.json":
+         print("This File Has Been Encripted")
+         
        else:
-            
          f = open(filename, "r")
          print(f.read())
          f.close()
@@ -125,6 +128,10 @@ def console(JVM):
             f = open(text, "r")
             print(f.read())
             f.close()
+          if text.endswith('.mp3'):
+            print("playing ", text)
+            playsound(text)
+            
           elif text.endswith('.md'):
             f = open(text, "r")
             print(f.read())
@@ -135,10 +142,6 @@ def console(JVM):
 
         
       except:
-        if text == "joke.py":
-          print("\033[1;31;40m  ERROR not connected to internet\033[0;0m")
-
-        else:
           print("\033[1;31;40m  ERROR \033[0;0m")
           print(" ", text)
           continue

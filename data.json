@@ -2,7 +2,7 @@
     "data": {
       "loggins": {
         "password": "mine",
-        "password2": 1234,
+        "password2": "1234",
         "username": "Admin",
         "username2": "guest"
       },
